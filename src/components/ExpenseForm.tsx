@@ -51,6 +51,7 @@ export function ExpenseForm({ onSubmit, isSubmitting }: Props) {
 
         // 成功したらリセット
         setAmount('')
+        setCategoryId('1')
         setMemo('')
         setSpentAt('')
         setErrors({})
